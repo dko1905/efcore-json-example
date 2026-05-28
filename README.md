@@ -22,3 +22,4 @@ API:
 - `/` fetch list of tenants and posts
 - `/migrate` migrate database
 - `/create` create *test* tenant
+- `/update` update *test* tenant metadata
