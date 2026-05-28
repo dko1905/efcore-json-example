@@ -1,17 +1,24 @@
+# EF Core JSON example 
 
-## Start databas
+Repository for testing...
+
+Requires:
+- `docker`
+- `dotnet` v10.0.108 or later
+
+## Database
 
 ```sh
 docker compose up -d
 ```
 
-## Start project
+## Project
 
-```
+```sh
 dotnet run
 ```
 
-Call
+API:
 - `/` fetch list of tenants and posts
 - `/migrate` migrate database
 - `/create` create *test* tenant
